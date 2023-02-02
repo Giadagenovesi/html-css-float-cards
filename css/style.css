@@ -25,7 +25,7 @@ body {
 /* STYLES */
 h1 {
     color: #e53170;
-    margin: 1.5rem auto;
+    margin-top: 1.5rem auto;
 }
 
 h3 {
@@ -39,6 +39,7 @@ h3 {
 img {
     height: 100px;
     float: left;
+    margin-right: 1rem;
 }
 
 /* MAIN */
@@ -46,20 +47,19 @@ img {
 /* Title section */
 .title-section {
     text-align: center;
-    margin-bottom: 1.5rem;
+    
 }
 
 /* End Title section */
 
 /* Team section */
-
-
 .team-card { 
     border: solid blue 2px;
     width:calc(100% / 3);
     float: left;
     background-color: #0f0e17;
     color: white;
+    line-height: 1.5rem;
 }
 
 /* End Team section */
