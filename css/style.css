@@ -8,11 +8,15 @@
 
 /* GENERAL */
 body {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka', sans-serif;  
+}
+
+.container {
+    width: 80%;
     max-width: 1100px;
 }
 
-.clearfix {
+.clearfix: :after {
     content: "";
     display: table;
     clear: both;
@@ -24,8 +28,17 @@ h1 {
     margin: 1.5rem auto;
 }
 
+h3 {
+    color: white;
+}
+
 .email-adress {
     color: #4fb6e0;
+}
+
+img {
+    height: 100px;
+    float: left;
 }
 
 /* MAIN */
@@ -39,6 +52,15 @@ h1 {
 /* End Title section */
 
 /* Team section */
+
+
+.team-card { 
+    border: solid blue 2px;
+    width:calc(100% / 3);
+    float: left;
+    background-color: #0f0e17;
+    color: white;
+}
 
 /* End Team section */
 
