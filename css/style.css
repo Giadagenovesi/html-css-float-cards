@@ -14,6 +14,7 @@ body {
 .container {
     width: 80%;
     max-width: 1100px;
+    margin: 50px 20px;
 }
 
 .clearfix: :after {
@@ -25,11 +26,13 @@ body {
 /* STYLES */
 h1 {
     color: #e53170;
-    margin-top: 1.5rem auto;
+    margin-bottom: 2rem;
+    font-size: 40px;
 }
 
 h3 {
     color: white;
+    margin-top: .8rem;
 }
 
 .email-adress {
@@ -47,23 +50,25 @@ img {
 /* Title section */
 .title-section {
     text-align: center;
-    
+    margin-bottom: 30px;  
 }
 
 /* End Title section */
 
 /* Team section */
+
 .team-card { 
-    border: solid blue 2px;
-    width:calc(100% / 3);
+    width:calc(100% / 3 - 60px / 3);
     float: left;
     background-color: #0f0e17;
     color: white;
     line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.team-card.middle {
+    margin: 0 30px;
 }
 
 /* End Team section */
-
-
-
 /* END MAIN */
